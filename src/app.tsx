@@ -9,7 +9,7 @@ const App = auto(() => {
   return (
     <>
       <Title>Untitled App</Title>
-      <MarkdownPlus markdown="# Hello world!" />
+      <MarkdownPlus markdown="# Hello world!" toolbar="show" />
     </>
   );
 });
