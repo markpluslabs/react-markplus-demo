@@ -1,33 +1,15 @@
-import { Button, Space, Typography } from 'antd';
+import { Typography } from 'antd';
 import { auto } from 'manate/react';
+import MarkdownPlus from 'markdown-plus';
 import React from 'react';
 
-import { Store } from './store';
+const { Title } = Typography;
 
-const { Text, Title } = Typography;
-
-const App = auto((props: { store: Store }) => {
-  const { store } = props;
+const App = auto(() => {
   return (
     <>
       <Title>Untitled App</Title>
-      <Space>
-        <Button
-          onClick={() => {
-            store.count -= 1;
-          }}
-        >
-          -
-        </Button>
-        <Text>{store.count}</Text>
-        <Button
-          onClick={() => {
-            store.count += 1;
-          }}
-        >
-          +
-        </Button>
-      </Space>
+      <MarkdownPlus markdown="# Hello world!" />
     </>
   );
 });
