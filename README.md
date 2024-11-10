@@ -1,5 +1,3 @@
-# Markdown Plus Demo
+# React MarkPlus Demo
 
-## todo
-
-- How to handle CSS?
+This is a demo project for library [react-markplus](https://www.npmjs.com/package/react-markplus).
