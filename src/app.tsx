@@ -8,9 +8,14 @@ const { Title } = Typography;
 const App = auto(() => {
   return (
     <>
-      <Title>Untitled App</Title>
+      <Title>React MarkPlus Demo</Title>
+      <Title level={2}>Default</Title>
       <div className="container">
-        <MarkPlus markdown="# Hello world!" toolbar="show" />
+        <MarkPlus markdown="# Hello world!" />
+      </div>
+      <Title level={2}>Another instance</Title>
+      <div className="container">
+        <MarkPlus markdown="# Hello world!" toolbar="hide" />
       </div>
     </>
   );
