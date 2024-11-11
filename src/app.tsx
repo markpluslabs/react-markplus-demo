@@ -13,9 +13,13 @@ const App = auto(() => {
       <div className="container">
         <MarkPlus markdown="# Hello world!" />
       </div>
-      <Title level={2}>Another instance</Title>
+      <Title level={2}>Hide Toolbar</Title>
       <div className="container">
         <MarkPlus markdown="# Hello world!" toolbar="hide" />
+      </div>
+      <Title level={2}>Dark Theme</Title>
+      <div className="container">
+        <MarkPlus markdown="# Hello world!" theme="dark" />
       </div>
     </>
   );

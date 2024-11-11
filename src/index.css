@@ -4,5 +4,5 @@
   height: 256px;
   border: 1px dashed gray;
   max-width: 800px;
-  margin-left: 32px;
+  margin: 0 32px;
 }
