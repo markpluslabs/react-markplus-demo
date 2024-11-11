@@ -9,6 +9,7 @@
     "serve": "rm -rf .parcel-cache temp && parcel src/index.html --dist-dir temp"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "@parcel/transformer-typescript-tsc": "^2.12.0",
     "@types/node": "^22.9.0",
     "@types/react-dom": "^18.3.1",
@@ -16,15 +17,21 @@
     "eslint-config-tyler": "^0.2.1",
     "gh-pages": "^6.2.0",
     "parcel": "^2.12.0",
+    "postcss-modules": "4.3.1",
     "process": "^0.11.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-markplus": "^0.1.0",
+    "react-markplus": "^0.1.2",
     "sort-package-json": "^2.10.1",
     "tsx": "^4.19.2",
     "ttpt": "^0.13.0",
     "typescript": "^5.6.3",
     "vitest": "^2.1.4",
     "yarn-upgrade-all": "^0.7.4"
+  },
+  "yarn-upgrade-all": {
+    "ignore": [
+      "postcss-modules"
+    ]
   }
 }
