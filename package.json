@@ -21,7 +21,7 @@
     "process": "^0.11.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-markplus": "^0.1.7",
+    "react-markplus": "^0.1.8",
     "sort-package-json": "^2.12.0",
     "tsx": "^4.19.2",
     "ttpt": "^0.13.0",

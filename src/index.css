@@ -1,8 +1,11 @@
 @import '../node_modules/antd/dist/reset.css';
 
+body {
+  padding: 1rem;
+}
+
 .container {
-  height: 256px;
+  height: 128px;
   border: 1px dashed gray;
-  max-width: 800px;
-  margin: 0 32px;
+  max-width: 768px;
 }
