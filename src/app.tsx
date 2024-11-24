@@ -49,7 +49,7 @@ const App = auto(() => {
             '|',
             <i
               key="hippo"
-              className="fa-solid fa-hippo"
+              className="fa fa-hippo"
               onClick={() => {
                 alert('Hello world!');
               }}
