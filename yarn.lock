@@ -5511,10 +5511,10 @@ react-is@^18.2.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
   integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
-react-markplus@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/react-markplus/-/react-markplus-0.1.6.tgz#af02f7bd0c6135c009771768c899058a28612948"
-  integrity sha512-oSXIfWMYXY+C91zOGY0RIt1vYww9KxU+FnCdzvUjYOmmjLHLaZrRCFwdaRMSq8up+9Bbi16wdAF6vD45OYyX7w==
+react-markplus@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/react-markplus/-/react-markplus-0.1.7.tgz#eea641559a181fdc890718fba06e0f796199e95d"
+  integrity sha512-JtR3CbufMe9HnHOef5uRgPEhX9NaBryOE7qnRCxY8XD35uG4tyObQnQi86UDzQbqzxuLktUPyvRHIaQrmdFs6w==
   dependencies:
     "@codemirror/commands" "^6.7.1"
     "@codemirror/lang-markdown" "^6.3.1"

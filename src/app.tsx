@@ -11,7 +11,7 @@ const App = auto(() => {
       <Title>React MarkPlus Demo</Title>
       <Title level={2}>Default</Title>
       <div className="container">
-        <MarkPlus markdown="# Hello world!" />
+        <MarkPlus markdown="# Hello world!" theme="light" />
       </div>
       <Title level={2}>Hide Toolbar</Title>
       <div className="container">
