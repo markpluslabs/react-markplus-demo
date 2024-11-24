@@ -1,4 +1,4 @@
-import { Typography } from 'antd';
+import { Divider, Typography } from 'antd';
 import { auto } from 'manate/react';
 import React from 'react';
 import MarkPlus from 'react-markplus';
@@ -9,17 +9,53 @@ const App = auto(() => {
   return (
     <>
       <Title>React MarkPlus Demo</Title>
-      <Title level={2}>Default</Title>
+
+      <Divider />
       <div className="container">
-        <MarkPlus markdown="# Hello world!" theme="light" />
+        <MarkPlus markdown="# Light Theme" theme="light" />
       </div>
-      <Title level={2}>Hide Toolbar</Title>
+
+      <Divider />
       <div className="container">
-        <MarkPlus markdown="# Hello world!" toolbar="hide" />
+        <MarkPlus markdown="# Dark Theme" theme="dark" />
       </div>
-      <Title level={2}>Dark Theme</Title>
+
+      <Divider />
       <div className="container">
-        <MarkPlus markdown="# Hello world!" theme="dark" />
+        <MarkPlus markdown="# Hide Toolbar" toolbar="hide" />
+      </div>
+
+      <Divider />
+      <div className="container">
+        <MarkPlus markdown="# No Toolbar" toolbar="none" />
+      </div>
+
+      <Divider />
+      <div className="container">
+        <MarkPlus markdown="# Editor Only" mode="editor" toolbar="none" />
+      </div>
+
+      <Divider />
+      <div className="container">
+        <MarkPlus markdown="# Preview Only" mode="preview" toolbar="none" />
+      </div>
+
+      <Divider />
+      <div className="container">
+        <MarkPlus
+          markdown="# Custom Toolbar"
+          toolbarItems={[
+            'about',
+            '|',
+            <i
+              key="hippo"
+              className="fa-solid fa-hippo"
+              onClick={() => {
+                alert('Hello world!');
+              }}
+            ></i>,
+          ]}
+        />
       </div>
     </>
   );
