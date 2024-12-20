@@ -1,4 +1,5 @@
-@import '../node_modules/antd/dist/reset.css';
+@use 'antd/dist/reset.css';
+@use 'react-markplus/src/css/index.scss';
 
 body {
   padding: 1rem;
